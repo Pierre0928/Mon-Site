@@ -12,7 +12,7 @@ export function AdminLogin({ onLogin }: AdminLoginProps) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === 'admin123') {
+    if (password === 'docguss1346') {
       onLogin(password);
       toast.success('Connexion réussie');
     } else {
@@ -54,7 +54,6 @@ export function AdminLogin({ onLogin }: AdminLoginProps) {
           </Button>
         </form>
         <p className="text-xs text-gray-500 mt-4 text-center">
-          Mot de passe par défaut : admin123
         </p>
       </Paper>
     </div>
