@@ -39,7 +39,7 @@ const DEFAULT_DRINKS: Drink[] = [
     casePrice: 12,
     caseCostPrice: 8.4,
   },
-  /*{
+  {
     id: '3',
     name: 'Maes Promo',
     category: 'biere',
@@ -47,7 +47,7 @@ const DEFAULT_DRINKS: Drink[] = [
     costPrice: 0.30,
     format: '25cl',
     description: 'Bière belge douce et équilibrée - Promotion',
-  },*/
+  },
   {
     id: '4',
     name: 'Chouffe Blonde',
